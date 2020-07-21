@@ -49,7 +49,6 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79429674-2"></script>
 <script>
@@ -67,9 +66,9 @@ mattcrump=1;
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
@@ -78,16 +77,14 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -96,9 +93,9 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  {  }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -263,7 +260,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>You can open a new R Markdown (.rmd) file from Rstudio through the file menu (New File -&gt; R markdown…), or by clicking the green plus sign icon in the top left-hand corner of R-studio, and choosing R Markdown. This will open a window allowing you to name your new document, and then will open the new R Markdown document in the R-studio text editor. The new document shows some example syntax for writing in R Markdown. You can compile the document to see what it will look like as a .pdf or website by clicking the <strong>Knit</strong> button.</p>
 <p>R Markdown offers a convenient way to create content in plain-text, and then display the content as a .pdf or web-page. R Markdown separates content from style. In a typical word-processor, like Microsoft Word, an author formats the style of the content as they create it, the two are bound together. In an R Markdown document the content is written in plain text without any styling. In a second step, the R Markdown document is compiled to display the content in a particular style. This tutorial uses the styles available in the <a href="https://bookdown.org/yihui/bookdown/">bookdown</a> package. There are other styles available, and you can create and modify your own styles.</p>
 <p>R Markdown is commonly used to create notebooks for the results of statistical analysis in R. R Markdown allows an author to write sections of text, together with sections of R code. When the document is compiled, it is displayed as a formatted document with sections of headers and text, interspersed with sections of the R code used to run analyses, along with the output of the analyses. For example, below is a snippet of R code that computes and then displays the mean for the set of numbers 1 to 10.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="r-r-studio-and-rmarkdown.html#cb1-1"></a><span class="kw">mean</span>(<span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">10</span>,<span class="dv">1</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">mean</span>(<span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">10</span>,<span class="dv">1</span>))</a></code></pre></div>
 <pre><code>## [1] 5.5</code></pre>
 <p>Although reporting statistical analyses may be the most common use of R Markdown, the framework can also be used to build books, using the <a href="https://bookdown.org/yihui/bookdown/">bookdown</a> package.</p>
 </div>

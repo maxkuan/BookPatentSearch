@@ -1,25 +1,25 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.7.10)  10 JUL 2020 22:26
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.7.21)  21 JUL 2020 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **OER_bookdown.tex
 (./OER_bookdown.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-06-18> (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2020-07-17> (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count163
-\c@chapter=\count164
-\c@section=\count165
-\c@subsection=\count166
-\c@subsubsection=\count167
-\c@paragraph=\count168
-\c@subparagraph=\count169
-\c@figure=\count170
-\c@table=\count171
+\c@part=\count164
+\c@chapter=\count165
+\c@section=\count166
+\c@subsection=\count167
+\c@subsubsection=\count168
+\c@paragraph=\count169
+\c@subparagraph=\count170
+\c@figure=\count171
+\c@table=\count172
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
@@ -94,13 +94,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count172
+\inf@bad=\count173
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count173
-\leftroot@=\count174
+\uproot@=\count174
+\leftroot@=\count175
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count175
-\DOTSCASE@=\count176
+\classnum@=\count176
+\DOTSCASE@=\count177
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -109,15 +109,15 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen137
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count177
-\c@MaxMatrixCols=\count178
+\macc@depth=\count178
+\c@MaxMatrixCols=\count179
 \dotsspace@=\muskip16
-\c@parentequation=\count179
-\dspbrk@lvl=\count180
+\c@parentequation=\count180
+\dspbrk@lvl=\count181
 \tag@help=\toks17
-\row@=\count181
-\column@=\count182
-\maxfields@=\count183
+\row@=\count182
+\column@=\count183
+\maxfields@=\count184
 \andhelp@=\toks18
 \eqnshift@=\dimen138
 \alignsep@=\dimen139
@@ -145,15 +145,15 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
 de-math.sty
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-06-18 L3 programming layer (loader) 
+Package: expl3 2020-07-17 L3 programming layer (loader) 
 
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-xdvipdfmx.def
 File: l3backend-xdvipdfmx.def 2020-06-29 L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count184
+\g__graphics_track_int=\count185
 \l__pdf_internal_box=\box47
-\g__pdf_backend_object_int=\count185
-\g__pdf_backend_annotation_int=\count186
+\g__pdf_backend_object_int=\count186
+\g__pdf_backend_annotation_int=\count187
 ))
 Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
 
@@ -168,10 +168,10 @@ Package: xparse 2020-05-15 L3 Experimental document command parser
 
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
 xparse-generic.tex
-\l__xparse_current_arg_int=\count187
-\g__xparse_grabber_int=\count188
-\l__xparse_m_args_int=\count189
-\l__xparse_v_nesting_int=\count190
+\l__xparse_current_arg_int=\count188
+\g__xparse_grabber_int=\count189
+\l__xparse_m_args_int=\count190
+\l__xparse_v_nesting_int=\count191
 ))
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2
 e/l3keys2e.sty
@@ -185,17 +185,17 @@ Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 xetex.sty
 Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count191
-\l__fontspec_language_int=\count192
-\l__fontspec_strnum_int=\count193
-\l__fontspec_tmp_int=\count194
-\l__fontspec_tmpa_int=\count195
-\l__fontspec_tmpb_int=\count196
-\l__fontspec_tmpc_int=\count197
-\l__fontspec_em_int=\count198
-\l__fontspec_emdef_int=\count199
-\l__fontspec_strong_int=\count266
-\l__fontspec_strongdef_int=\count267
+\l__fontspec_script_int=\count192
+\l__fontspec_language_int=\count193
+\l__fontspec_strnum_int=\count194
+\l__fontspec_tmp_int=\count195
+\l__fontspec_tmpa_int=\count196
+\l__fontspec_tmpb_int=\count197
+\l__fontspec_tmpc_int=\count198
+\l__fontspec_em_int=\count199
+\l__fontspec_emdef_int=\count266
+\l__fontspec_strong_int=\count267
+\l__fontspec_strongdef_int=\count268
 \l__fontspec_tmpa_dim=\dimen144
 \l__fontspec_tmpb_dim=\dimen145
 \l__fontspec_tmpc_dim=\dimen146
@@ -210,9 +210,9 @@ Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\g__um_fam_int=\count268
-\g__um_fonts_used_int=\count269
-\l__um_primecount_int=\count270
+\g__um_fam_int=\count269
+\g__um_fonts_used_int=\count270
+\l__um_primecount_int=\count271
 \g__um_primekern_muskip=\muskip17
 
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
@@ -294,8 +294,8 @@ s.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen147
-\Hy@linkcounter=\count271
-\Hy@pagecounter=\count272
+\Hy@linkcounter=\count272
+\Hy@pagecounter=\count273
 
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
 f
@@ -309,7 +309,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 s.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count273
+\Hy@SavedSpaceFactor=\count274
 Package hyperref Info: Option `unicode' set `true' on input line 4338.
 
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
@@ -322,7 +322,7 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count274
+\c@Hy@tempcnt=\count275
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -339,7 +339,7 @@ tcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count275
+\Fld@menulength=\count276
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
 Package hyperref Info: Hyper figures OFF on input line 6347.
@@ -356,9 +356,9 @@ LaTeX Info: Redefining \pageref on input line 6421.
 i.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count276
-\c@Item=\count277
-\c@Hfootnote=\count278
+\Hy@abspage=\count277
+\c@Item=\count278
+\c@Hfootnote=\count279
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -372,10 +372,10 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box48
-\c@Hy@AnnotLevel=\count279
-\HyField@AnnotCount=\count280
-\Fld@listcount=\count281
-\c@bookmark@seq@number=\count282
+\c@Hy@AnnotLevel=\count280
+\HyField@AnnotCount=\count281
+\Fld@listcount=\count282
+\c@bookmark@seq@number=\count283
 
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rer
 unfilecheck.sty
@@ -398,11 +398,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.
 sty
 Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count283
+\FV@CodeLineNo=\count284
 \FV@InFile=\read2
 \FV@TabBox=\box49
-\c@FancyVerbLine=\count284
-\FV@StepNumber=\count285
+\c@FancyVerbLine=\count285
+\FV@StepNumber=\count286
 \FV@OutFile=\write3
 ) (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/framed/framed.st
 y
@@ -420,16 +420,16 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip55
 \LTpre=\skip56
 \LTpost=\skip57
-\LTchunksize=\count286
+\LTchunksize=\count287
 \LTcapwidth=\dimen155
 \LT@head=\box50
 \LT@firsthead=\box51
 \LT@foot=\box52
 \LT@lastfoot=\box53
-\LT@cols=\count287
-\LT@rows=\count288
-\c@LT@tables=\count289
-\c@LT@chunks=\count290
+\LT@cols=\count288
+\LT@rows=\count289
+\c@LT@tables=\count290
+\c@LT@chunks=\count291
 \LT@p@ftn=\toks22
 )
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.
@@ -445,18 +445,18 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen163
 \cmidrulekern=\dimen164
 \defaultaddspace=\dimen165
-\@cmidla=\count291
-\@cmidlb=\count292
+\@cmidla=\count292
+\@cmidlb=\count293
 \@aboverulesep=\dimen166
 \@belowrulesep=\dimen167
-\@thisruleclass=\count293
-\@lastruleclass=\count294
+\@thisruleclass=\count294
+\@lastruleclass=\count295
 \@thisrulewidth=\dimen168
 )
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.
 sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count295
+Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count296
 )
 (c:/Users/maxku/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.
 sty
@@ -507,7 +507,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip61
 \bibsep=\skip62
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count296
+\c@NAT@ctr=\count297
 ) (./OER_bookdown.aux
 
 LaTeX Warning: Label `bookdown' multiply defined.
@@ -832,7 +832,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count297
+\c@section@level=\count298
 )
 LaTeX Info: Redefining \ref on input line 125.
 LaTeX Info: Redefining \pageref on input line 125.
@@ -969,11 +969,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 830.
  ) 
 Here is how much of TeX's memory you used:
- 17527 strings out of 481269
- 310354 string characters out of 5923245
- 723780 words of memory out of 5000000
- 34807 multiletter control sequences out of 15000+600000
- 538805 words of font info for 79 fonts, out of 8000000 for 9000
+ 17527 strings out of 481704
+ 310351 string characters out of 5932118
+ 726311 words of memory out of 5000000
+ 34372 multiletter control sequences out of 15000+600000
+ 541555 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,6n,118p,906b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 

@@ -49,7 +49,6 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79429674-2"></script>
 <script>
@@ -67,9 +66,9 @@ mattcrump=1;
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
@@ -78,16 +77,14 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -96,9 +93,9 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  {  }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -250,8 +247,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="shiny" class="section level1">
 <h1><span class="header-section-number">Chapter 7</span> Shiny</h1>
 <p><a href="https://shiny.rstudio.com">Shiny</a> is an R package for creating a web site to interact with R. For example, a website could include various widgets for user input. User input data gets sent to a server running R, which then executes R code. Output from R can be sent back to the webpage in the form of data tables and graphs. A working example using the default shiny app available in R-studio is presented below. Note the shiny app will only display in the web-book version of this tutorial, and not the .pdf or epub versions.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="shiny.html#cb3-1"></a>knitr<span class="op">::</span><span class="kw">include_app</span>(<span class="st">&quot;https://shiny-crump-test.herokuapp.com&quot;</span>, </span>
-<span id="cb3-2"><a href="shiny.html#cb3-2"></a>  <span class="dt">height =</span> <span class="st">&quot;600px&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1">knitr<span class="op">::</span><span class="kw">include_app</span>(<span class="st">&quot;https://shiny-crump-test.herokuapp.com&quot;</span>, </a>
+<a class="sourceLine" id="cb3-2" title="2">  <span class="dt">height =</span> <span class="st">&quot;600px&quot;</span>)</a></code></pre></div>
 <iframe src="https://shiny-crump-test.herokuapp.com?showcase=0" width="672" height="600px">
 </iframe>
 <p>In the above example, the shiny app has loaded a dataset into R and plotted a histogram. The sidepanel contains a scrollbar that allows a user to change the bin-size of the histogram. When the scrollbar is moved the new bin-size settings are sent to the server, R recomputes the histogram, and the website dynamically shows a histogram with new bin-sizes.</p>
